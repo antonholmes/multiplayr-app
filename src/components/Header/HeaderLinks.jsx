@@ -46,63 +46,36 @@ function HeaderLinks({ ...props }) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          {/* <CloudDownload className={classes.icons} /> Download */}
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"
-          title="Follow me on twitter"
+          title="Check out my Github"
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/antonholmes"
+            href="https://github.com/antonholmes"
             target="_blank"
             color="transparent"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + ' fab fa-twitter'} />
+            <i className={classes.socialIcons + ' fab fa-github'} />
           </Button>
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
-          title="Follow me on facebook"
+          title="Add me on LinkedIn"
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/antonholmes"
+            href="https://www.linkedin.com/in/antonholmes"
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + ' fab fa-facebook'} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow me on instagram"
-          placement={window.innerWidth > 959 ? 'top' : 'left'}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/antonholmes"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + ' fab fa-instagram'} />
+            <i className={classes.socialIcons + ' fab fa-linkedin'} />
           </Button>
         </Tooltip>
       </ListItem>
