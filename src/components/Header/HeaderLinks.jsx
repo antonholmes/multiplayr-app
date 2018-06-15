@@ -25,7 +25,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Projects"
           buttonProps={{
             className: classes.navLink,
             color: 'transparent',
@@ -33,14 +33,14 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              All components
+              Multiplayr
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
+              href="https://leastcostlymobilehomesdirect.herokuapp.com/"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              Least Costly Mobile Homes Direct
             </a>,
           ]}
         />
@@ -52,7 +52,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          {/* <CloudDownload className={classes.icons} /> Download */}
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

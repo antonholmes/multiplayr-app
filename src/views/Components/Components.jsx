@@ -37,7 +37,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Multiplayr"
+          brand="Holmes Base"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
