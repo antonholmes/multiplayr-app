@@ -1,36 +1,36 @@
-import React from "react";
+import React from 'react';
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles';
 // @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+import Camera from '@material-ui/icons/Camera';
+import Palette from '@material-ui/icons/Palette';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import Header from 'components/Header/Header.jsx';
+import Footer from 'components/Footer/Footer.jsx';
+import Button from 'components/CustomButtons/Button.jsx';
+import GridContainer from 'components/Grid/GridContainer.jsx';
+import GridItem from 'components/Grid/GridItem.jsx';
+import HeaderLinks from 'components/Header/HeaderLinks.jsx';
+import NavPills from 'components/NavPills/NavPills.jsx';
+import Parallax from 'components/Parallax/Parallax.jsx';
 
-import profile from "assets/img/faces/christian.jpg";
+import profile from 'assets/img/faces/anton.png';
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import studio1 from 'assets/img/examples/studio-1.jpg';
+import studio2 from 'assets/img/examples/studio-2.jpg';
+import studio3 from 'assets/img/examples/studio-3.jpg';
+import studio4 from 'assets/img/examples/studio-4.jpg';
+import studio5 from 'assets/img/examples/studio-5.jpg';
+import work1 from 'assets/img/examples/olu-eletu.jpg';
+import work2 from 'assets/img/examples/clem-onojeghuo.jpg';
+import work3 from 'assets/img/examples/cynthia-del-rio.jpg';
+import work4 from 'assets/img/examples/mariya-georgieva.jpg';
+import work5 from 'assets/img/examples/clem-onojegaw.jpg';
 
-import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
+import profilePageStyle from 'assets/jss/material-kit-react/views/profilePage.jsx';
 
 class ProfilePage extends React.Component {
   render() {
@@ -45,16 +45,16 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Material Kit React"
+          brand="Anton Holmes"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: 'white',
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+        <Parallax small filter image={require('assets/img/bg6.jpg')} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -65,16 +65,16 @@ class ProfilePage extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Christian Louboutin</h3>
-                      <h6>DESIGNER</h6>
+                      <h3 className={classes.title}>Anton Holmes</h3>
+                      <h6>Software Engineer</h6>
                       <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-twitter"} />
+                        <i className={'fab fa-twitter'} />
                       </Button>
                       <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-instagram"} />
+                        <i className={'fab fa-instagram'} />
                       </Button>
                       <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-facebook"} />
+                        <i className={'fab fa-facebook'} />
                       </Button>
                     </div>
                   </div>
@@ -82,10 +82,10 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                  A former professor and owner of a startup, Anton Holmes has
+                  brought his talents to New York in pursuit of his dream of
+                  working in sports and/or tech. An avid Cubs fan, he also loves
+                  writing, photography, travel, SCUBA diving, and sports.{' '}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -95,7 +95,7 @@ class ProfilePage extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Studio",
+                        tabButton: 'Studio',
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
@@ -124,10 +124,10 @@ class ProfilePage extends React.Component {
                               />
                             </GridItem>
                           </GridContainer>
-                        )
+                        ),
                       },
                       {
-                        tabButton: "Work",
+                        tabButton: 'Work',
                         tabIcon: Palette,
                         tabContent: (
                           <GridContainer justify="center">
@@ -161,10 +161,10 @@ class ProfilePage extends React.Component {
                               />
                             </GridItem>
                           </GridContainer>
-                        )
+                        ),
                       },
                       {
-                        tabButton: "Favorite",
+                        tabButton: 'Favorite',
                         tabIcon: Favorite,
                         tabContent: (
                           <GridContainer justify="center">
@@ -198,8 +198,8 @@ class ProfilePage extends React.Component {
                               />
                             </GridItem>
                           </GridContainer>
-                        )
-                      }
+                        ),
+                      },
                     ]}
                   />
                 </GridItem>

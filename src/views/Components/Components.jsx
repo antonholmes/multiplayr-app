@@ -16,6 +16,7 @@ import Parallax from 'components/Parallax/Parallax.jsx';
 // sections for this page
 import HeaderLinks from 'components/Header/HeaderLinks.jsx';
 import SectionPlayer from './Sections/SectionPlayer.jsx';
+import CustomInput from 'components/CustomInput/CustomInput.jsx';
 // import SectionBasics from './Sections/SectionBasics.jsx';
 // import SectionNavbars from './Sections/SectionNavbars.jsx';
 // import SectionTabs from './Sections/SectionTabs.jsx';
@@ -56,6 +57,15 @@ class Components extends React.Component {
                   <h3 className={classes.subtitle}>
                     The new way to watch. Grab a seat!
                   </h3>
+                  {/* <GridItem xs={12} sm={4} md={4} lg={3}> */}
+                  <CustomInput
+                    labelText="Enter URL of video you want to stream"
+                    id="float"
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                  {/* </GridItem> */}
                 </div>
               </GridItem>
             </GridContainer>

@@ -2,6 +2,7 @@
 import React from 'react';
 // nodejs library to set properties for components
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 // nodejs library that concatenates classes
 import classNames from 'classnames';
 import { List, ListItem, withStyles } from '@material-ui/core';
@@ -27,13 +28,11 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.antonholmes.com/"
-                className={classes.block}
-                target="_blank"
-              >
+              {/* <a href="profile-page" className={classes.block} target="_blank"> */}
+              <Link to="profile-page" className={classes.block}>
                 Anton Holmes
-              </a>
+                {/* </a> */}
+              </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
