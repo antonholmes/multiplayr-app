@@ -4,9 +4,9 @@ import classNames from 'classnames';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 // @material-ui/icons
-import Camera from '@material-ui/icons/Camera';
-import Palette from '@material-ui/icons/Palette';
-import Favorite from '@material-ui/icons/Favorite';
+import Explore from '@material-ui/icons/Explore';
+import Pets from '@material-ui/icons/Pets';
+import Mood from '@material-ui/icons/Mood';
 // core components
 import Header from 'components/Header/Header.jsx';
 import Footer from 'components/Footer/Footer.jsx';
@@ -19,16 +19,20 @@ import Parallax from 'components/Parallax/Parallax.jsx';
 
 import profile from 'assets/img/faces/anton.png';
 
-import studio1 from 'assets/img/examples/studio-1.jpg';
-import studio2 from 'assets/img/examples/studio-2.jpg';
-import studio3 from 'assets/img/examples/studio-3.jpg';
-import studio4 from 'assets/img/examples/studio-4.jpg';
-import studio5 from 'assets/img/examples/studio-5.jpg';
-import work1 from 'assets/img/examples/olu-eletu.jpg';
-import work2 from 'assets/img/examples/clem-onojeghuo.jpg';
-import work3 from 'assets/img/examples/cynthia-del-rio.jpg';
-import work4 from 'assets/img/examples/mariya-georgieva.jpg';
-import work5 from 'assets/img/examples/clem-onojegaw.jpg';
+import noah from 'assets/img/examples/noah.jpg';
+import pepper from 'assets/img/examples/pepper.jpg';
+import rachel from 'assets/img/examples/rachel.jpg';
+import ruffles from 'assets/img/examples/ruffles.jpg';
+import corondive from 'assets/img/examples/corondive.jpg';
+import coron from 'assets/img/examples/coron.jpg';
+import hawley from 'assets/img/examples/hawley.jpg';
+import longbeach from 'assets/img/examples/longbeach.jpg';
+import sombrero from 'assets/img/examples/sombrero.jpg';
+
+import anvaya from 'assets/img/examples/sunset-anvaya.jpg';
+import boracay from 'assets/img/examples/sunset-boracay.jpg';
+import newport from 'assets/img/examples/sunset-newport.jpg';
+import pinatubo from 'assets/img/examples/sunset-pinatubo.jpg';
 
 import profilePageStyle from 'assets/jss/material-kit-react/views/profilePage.jsx';
 
@@ -66,14 +70,31 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Anton Holmes</h3>
-                      <h6>Software Engineer</h6>
-                      <Button justIcon link className={classes.margin5}>
+                      <h6>
+                        Software Engineer | Data Analyst | JavaScript Developer{' '}
+                      </h6>
+                      <Button
+                        href="https://twitter.com/antonholmes"
+                        justIcon
+                        link
+                        className={classes.margin5}
+                      >
                         <i className={'fab fa-twitter'} />
                       </Button>
-                      <Button justIcon link className={classes.margin5}>
+                      <Button
+                        href="https://instagram.com/antonholmes"
+                        justIcon
+                        link
+                        className={classes.margin5}
+                      >
                         <i className={'fab fa-instagram'} />
                       </Button>
-                      <Button justIcon link className={classes.margin5}>
+                      <Button
+                        href="https://facebook.com/antonholmes"
+                        justIcon
+                        link
+                        className={classes.margin5}
+                      >
                         <i className={'fab fa-facebook'} />
                       </Button>
                     </div>
@@ -95,31 +116,31 @@ class ProfilePage extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: 'Studio',
-                        tabIcon: Camera,
+                        tabButton: 'Pets',
+                        tabIcon: Pets,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={studio1}
+                                src={ruffles}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio2}
+                                src={noah}
                                 className={navImageClasses}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={studio5}
+                                src={pepper}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio4}
+                                src={rachel}
                                 className={navImageClasses}
                               />
                             </GridItem>
@@ -127,36 +148,36 @@ class ProfilePage extends React.Component {
                         ),
                       },
                       {
-                        tabButton: 'Work',
-                        tabIcon: Palette,
+                        tabButton: 'Travel',
+                        tabIcon: Explore,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={work1}
+                                src={hawley}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={work2}
+                                src={longbeach}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={work3}
+                                src={coron}
                                 className={navImageClasses}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={work4}
+                                src={corondive}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={work5}
+                                src={sombrero}
                                 className={navImageClasses}
                               />
                             </GridItem>
@@ -164,36 +185,31 @@ class ProfilePage extends React.Component {
                         ),
                       },
                       {
-                        tabButton: 'Favorite',
-                        tabIcon: Favorite,
+                        tabButton: 'Sceneries',
+                        tabIcon: Mood,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={work4}
+                                src={anvaya}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={studio3}
+                                src={boracay}
                                 className={navImageClasses}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
-                                src={work2}
+                                src={newport}
                                 className={navImageClasses}
                               />
                               <img
                                 alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio1}
+                                src={pinatubo}
                                 className={navImageClasses}
                               />
                             </GridItem>
