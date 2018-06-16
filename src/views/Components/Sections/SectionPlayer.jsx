@@ -23,6 +23,7 @@ class SectionPlayer extends Component {
               }}
             />
           </GridItem>
+
           <GridItem xs={12} sm={12} md={8} lg={6}>
             <ReactPlayer
               url="https://www.facebook.com/Thrillist/videos/10155247274115891/"
