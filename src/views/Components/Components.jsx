@@ -2,7 +2,7 @@ import React from 'react';
 // nodejs library that concatenates classes
 import classNames from 'classnames';
 // react components for routing our app without refresh
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 // @material-ui/icons
@@ -39,7 +39,9 @@ class Components extends React.Component {
       <div>
         <Header
           brand={
-            <img src="favicon.ico" alt="home" height="25px" width="25px" />
+            <Link to="/">
+              <img src="favicon.ico" alt="home" height="25px" width="25px" />
+            </Link>
           }
           rightLinks={<HeaderLinks />}
           fixed

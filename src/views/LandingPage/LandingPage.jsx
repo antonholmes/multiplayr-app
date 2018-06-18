@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // nodejs library that concatenates classes
 import classNames from 'classnames';
 // @material-ui/core components
@@ -32,7 +33,9 @@ class LandingPage extends React.Component {
           color="transparent"
           routes={dashboardRoutes}
           brand={
-            <img src="favicon.ico" alt="home" height="25px" width="25px" />
+            <Link to="/">
+              <img src="favicon.ico" alt="home" height="25px" width="25px" />
+            </Link>
           }
           rightLinks={<HeaderLinks />}
           fixed
