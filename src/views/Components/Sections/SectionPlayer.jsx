@@ -12,7 +12,7 @@ class SectionPlayer extends Component {
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} lg={6}>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=J8ggDAPOEME"
+              url="https://www.youtube.com/watch?v=JdA9_mtXYME"
               config={{
                 youtube: {
                   playerVars: { showinfo: 1 },
@@ -23,20 +23,7 @@ class SectionPlayer extends Component {
               }}
             />
           </GridItem>
-
-          <GridItem xs={12} sm={12} md={8} lg={6}>
-            <ReactPlayer
-              url="https://www.facebook.com/Thrillist/videos/10155247274115891/"
-              config={{
-                youtube: {
-                  playerVars: { showinfo: 1 },
-                },
-                facebook: {
-                  appId: '261320394413541',
-                },
-              }}
-            />
-          </GridItem>
+          <GridItem xs={12} sm={12} md={8} lg={6} />
         </GridContainer>
       </div>
     );

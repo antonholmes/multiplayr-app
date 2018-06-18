@@ -35,6 +35,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/" className={classes.dropdownLink}>
               Multiplayr
             </Link>,
+            <Link to="landing-page" className={classes.dropdownLink}>
+              Under the Hood
+            </Link>,
             <a
               href="https://leastcostlymobilehomesdirect.herokuapp.com/"
               target="_blank"

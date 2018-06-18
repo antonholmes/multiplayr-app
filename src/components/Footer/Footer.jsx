@@ -28,15 +28,13 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              {/* <a href="profile-page" className={classes.block} target="_blank"> */}
               <Link to="profile-page" className={classes.block}>
                 Anton Holmes
-                {/* </a> */}
               </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.antonholmes.com/multiplayr"
+                href="https://multiplayr.herokuapp.com"
                 className={classes.block}
                 target="_blank"
               >
@@ -73,7 +71,7 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made by{' '}
+          &copy; {1900 + new Date().getYear()}, made by{' '}
           <a
             href="https://www.antonholmes.com"
             className={aClasses}
