@@ -33,13 +33,14 @@ function Footer({ ...props }) {
               </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://multiplayr.herokuapp.com"
-                className={classes.block}
-                target="_blank"
-              >
+              <Link to="/" className={classes.block}>
                 Multiplayr
-              </a>
+              </Link>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Link to="landing-page" className={classes.block}>
+                Under the Hood
+              </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -48,24 +49,6 @@ function Footer({ ...props }) {
                 target="_blank"
               >
                 Least Costly Mobile Homes Direct
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://github.com/antonholmes"
-                className={classes.block}
-                target="_blank"
-              >
-                Github
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://linkedin.com/in/antonholmes"
-                className={classes.block}
-                target="_blank"
-              >
-                LinkedIn
               </a>
             </ListItem>
           </List>
