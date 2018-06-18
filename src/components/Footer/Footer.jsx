@@ -38,7 +38,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://github.com/antonholmes"
+                href="https://github.com/antonholmes/multiplayr-app"
                 className={classes.block}
                 target="_blank"
               >

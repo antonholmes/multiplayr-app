@@ -15,12 +15,14 @@
     "react": "16.4.0",
     "react-datetime": "2.14.0",
     "react-dom": "16.4.0",
-    "react-nouislider": "2.0.1",
+    "react-hot-loader": "^4.3.3",
+    "react-nouislider": "^2.0.1",
     "react-player": "^1.6.4",
     "react-router-dom": "4.3.1",
     "react-scripts": "1.1.4",
     "react-slick": "0.23.1",
     "react-swipeable-views": "0.12.13",
+    "screenfull": "^3.3.2",
     "video-stream-merger": "^2.9.1",
     "webrtc-adapter": "^6.2.1"
   },
@@ -31,6 +33,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "version": "auto-changelog -p && npm run build:dist && npm run build:standalone && git add CHANGELOG.md dist"
   }
 }
