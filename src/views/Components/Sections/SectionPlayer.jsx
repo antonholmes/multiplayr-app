@@ -12,7 +12,8 @@ class SectionPlayer extends Component {
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} lg={6}>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=JdA9_mtXYME"
+              playing="true"
+              url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               config={{
                 youtube: {
                   playerVars: { showinfo: 1 },

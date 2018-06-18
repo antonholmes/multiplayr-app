@@ -32,12 +32,6 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Multiplayr
-            </Link>,
-            <Link to="landing-page" className={classes.dropdownLink}>
-              Under the Hood
-            </Link>,
             <a
               href="https://leastcostlymobilehomesdirect.herokuapp.com/"
               target="_blank"
@@ -45,6 +39,12 @@ function HeaderLinks({ ...props }) {
             >
               Least Costly Mobile Homes Direct
             </a>,
+            <Link to="/" className={classes.dropdownLink}>
+              Multiplayr
+            </Link>,
+            <Link to="landing-page" className={classes.dropdownLink}>
+              Under the Hood
+            </Link>,
           ]}
         />
       </ListItem>
