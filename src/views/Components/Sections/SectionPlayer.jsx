@@ -202,7 +202,7 @@ class SectionPlayer extends Component {
                 onDuration={this.onDuration}
                 config={{
                   youtube: {
-                    playerVars: { showinfo: 1 },
+                    playerVars: { showinfo: 0 },
                   },
                   facebook: {
                     appId: '261320394413541',
