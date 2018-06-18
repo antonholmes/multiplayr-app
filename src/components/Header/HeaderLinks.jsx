@@ -32,6 +32,9 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
+            <Link to="profile-page" className={classes.dropdownLink}>
+              Holmes Base
+            </Link>,
             <a
               href="https://leastcostlymobilehomesdirect.herokuapp.com/"
               target="_blank"

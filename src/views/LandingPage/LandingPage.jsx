@@ -31,7 +31,9 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand={<i class="fa fa-play-circle" aria-hidden="true" />}
+          brand={
+            <img src="favicon.ico" alt="home" height="25px" width="25px" />
+          }
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{

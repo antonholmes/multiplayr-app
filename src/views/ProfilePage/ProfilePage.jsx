@@ -49,7 +49,9 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Anton Holmes"
+          brand={
+            <img src="favicon.ico" alt="home" height="25px" width="25px" />
+          }
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{

@@ -38,7 +38,9 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand={<i class="fa fa-play-circle" aria-hidden="true" />}
+          brand={
+            <img src="favicon.ico" alt="home" height="25px" width="25px" />
+          }
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"

@@ -28,27 +28,30 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <Link to="profile-page" className={classes.block}>
-                Anton Holmes
-              </Link>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <Link to="/" className={classes.block}>
-                Multiplayr
-              </Link>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <Link to="landing-page" className={classes.block}>
-                Under the Hood
-              </Link>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
               <a
                 href="https://leastcostlymobilehomesdirect.herokuapp.com/"
                 className={classes.block}
                 target="_blank"
               >
                 Least Costly Mobile Homes Direct
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://github.com/antonholmes"
+                className={classes.block}
+                target="_blank"
+              >
+                Github
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.linkedin.com/in/antonholmes"
+                className={classes.block}
+                target="_blank"
+              >
+                LinkedIn
               </a>
             </ListItem>
           </List>
