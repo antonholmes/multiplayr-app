@@ -54,6 +54,15 @@ function Footer({ ...props }) {
                 LinkedIn
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.medium.com/@antonholmes"
+                className={classes.block}
+                target="_blank"
+              >
+                Medium
+              </a>
+            </ListItem>
           </List>
         </div>
         <div className={classes.right}>
