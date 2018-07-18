@@ -4,7 +4,7 @@ _The new way to watch. Grab a seat!_
 
 # 📺 Motivation
 
-This is a solo project that I worked on for the Stackathon project for my course in the Fullstack Academy of Code.
+The idea was to use this tool to scrape off Baseball Savant and analyze the physical motion and strain pitchers experience on a game-to-game basis. It evolved into something way bigger.
 
 # 📽 Functionality
 
