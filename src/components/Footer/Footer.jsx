@@ -27,7 +27,7 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="https://leastcostlymobilehomesdirect.herokuapp.com/"
                 className={classes.block}
@@ -35,7 +35,7 @@ function Footer({ ...props }) {
               >
                 Least Costly Mobile Homes Direct
               </a>
-            </ListItem>
+            </ListItem> */}
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://github.com/antonholmes/multiplayr-app"
@@ -54,7 +54,7 @@ function Footer({ ...props }) {
                 LinkedIn
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.medium.com/@antonholmes"
                 className={classes.block}
@@ -62,7 +62,7 @@ function Footer({ ...props }) {
               >
                 Medium
               </a>
-            </ListItem>
+            </ListItem> */}
           </List>
         </div>
         <div className={classes.right}>

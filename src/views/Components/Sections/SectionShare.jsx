@@ -5,11 +5,11 @@ import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 // @material-ui/icons
 import basicsStyle from 'assets/jss/material-kit-react/views/componentsSections/basicsStyle.jsx';
-import LocationOn from '@material-ui/icons/LocationOn';
+// import LocationOn from '@material-ui/icons/LocationOn';
 // core components
-import GridContainer from 'components/Grid/GridContainer.jsx';
-import GridItem from 'components/Grid/GridItem.jsx';
-import Card from 'components/Card/Card.jsx';
+// import GridContainer from 'components/Grid/GridContainer.jsx';
+// import GridItem from 'components/Grid/GridItem.jsx';
+// import Card from 'components/Card/Card.jsx';
 import Button from 'components/CustomButtons/Button.jsx';
 
 const mediaStreamConstraints = {

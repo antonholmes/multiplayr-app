@@ -101,7 +101,7 @@ class SectionPlayer extends Component {
   render() {
     const { classes } = this.props;
     const {
-      url,
+      // url,
       playing,
       volume,
       muted,
@@ -222,5 +222,4 @@ class SectionPlayer extends Component {
     );
   }
 }
-console.log(this);
 export default withStyles(basicsStyle)(SectionPlayer);

@@ -32,17 +32,17 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="profile-page" className={classes.dropdownLink}>
+            <Link to="/" className={classes.dropdownLink}>
               Holmes Base
             </Link>,
-            <a
-              href="https://leastcostlymobilehomesdirect.herokuapp.com/"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Least Costly Mobile Homes Direct
-            </a>,
-            <Link to="/" className={classes.dropdownLink}>
+            // <a
+            //   href="https://leastcostlymobilehomesdirect.herokuapp.com/"
+            //   target="_blank"
+            //   className={classes.dropdownLink}
+            // >
+            //   Least Costly Mobile Homes Direct
+            // </a>,
+            <Link to="multiplayr" className={classes.dropdownLink}>
               Multiplayr
             </Link>,
             <Link to="landing-page" className={classes.dropdownLink}>
@@ -85,7 +85,7 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
           title="Read my Medium blog"
@@ -101,7 +101,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + ' fab fa-medium'} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

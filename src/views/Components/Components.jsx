@@ -34,7 +34,7 @@ import SectionShare from './Sections/SectionShare.jsx';
 
 import componentsStyle from 'assets/jss/material-kit-react/views/components.jsx';
 
-class Components extends React.Component {
+class Multiplayr extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -102,4 +102,4 @@ class Components extends React.Component {
   }
 }
 
-export default withStyles(componentsStyle)(Components);
+export default withStyles(componentsStyle)(Multiplayr);
