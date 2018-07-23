@@ -19,7 +19,7 @@ import NavPills from 'components/NavPills/NavPills.jsx';
 import Parallax from 'components/Parallax/Parallax.jsx';
 
 import profile from 'assets/img/faces/anton.png';
-
+import barbie from 'assets/img/examples/barbie.jpg';
 import noah from 'assets/img/examples/noah.jpg';
 import pepper from 'assets/img/examples/pepper.jpg';
 import rachel from 'assets/img/examples/rachel.jpg';
@@ -108,8 +108,10 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  A former professor and owner of a startup, Anton Holmes envisions to merge his passsions of sports, statistics, and tech. An avid Cubs fan, he also loves
-                  writing, photography, travel, SCUBA diving, and sports.{' '}
+                  A former professor and owner of a startup, Anton Holmes
+                  envisions to merge his passsions of sports, statistics, and
+                  tech. An avid Cubs fan, he also loves writing, photography,
+                  travel, SCUBA diving, and sports.{' '}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -144,6 +146,11 @@ class ProfilePage extends React.Component {
                               <img
                                 alt="..."
                                 src={rachel}
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src={barbie}
                                 className={navImageClasses}
                               />
                             </GridItem>
