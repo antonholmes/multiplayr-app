@@ -108,9 +108,7 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  A former professor and owner of a startup, Anton Holmes has
-                  brought his talents to New York in pursuit of his dream of
-                  working in sports and/or tech. An avid Cubs fan, he also loves
+                  A former professor and owner of a startup, Anton Holmes envisions to merge his passsions of sports, statistics, and tech. An avid Cubs fan, he also loves
                   writing, photography, travel, SCUBA diving, and sports.{' '}
                 </p>
               </div>
